@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* <!-- ======= Header ======= --> */}
       <header id="header">
-        <div className="d-flex flex-column">
+        <div className="w-flex flex-column">
 
           <div className="profile">
             <img src="assets/img/cat.jpg" alt="" className="img-fluid rounded-circle" />
@@ -41,7 +41,7 @@ export default function Home() {
       {/* <!-- ======= Hero Section ======= --> */}
       <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
         <div className="hero-container" data-aos="fade-in">
-          <h1>개발자 신동구</h1>
+          <h1>개발자 신동구의 profile</h1>
           <p>I'm <span className="typed" data-typed-items="Web Developers"></span></p>
         </div>
       </section>
@@ -54,8 +54,8 @@ export default function Home() {
           <div className="container">
 
             <div className="section-title">
-              <h2>About</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>About Me</h2>
+
             </div>
 
             <div className="row">
@@ -63,36 +63,39 @@ export default function Home() {
                 <img src="assets/img/profile-img.jpg" className="img-fluid" alt="" />
               </div>
               <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>UI/UX Designer &amp; Web Developer.</h3>
+                <h3>Java &amp; Spring Web Developer.</h3>
+
                 <p className="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                  <strong><br></br>인적사항<br></br></strong>
+                  {/* <a href="https://github.com/shsh99" className="github">GitHub</a><br></br>
+                  <a href="https://shins99.tistory.com/" className="tistory">Blog</a> */}
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                      <br></br>
+                      <li><i className="bi bi-chevron-right"></i> <strong>생년월일 :</strong> <span>1999년 05월 29일</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>연락처 :</strong> <span>010 - 7772 - 6729</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>주소 :</strong> <span>부산광역시 수영구 광안동</span></li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                      <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                      <br></br>
+                      <li><i className="bi bi-chevron-right"></i> <strong>나이 :</strong> <span>만 24세</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>Degree :</strong> <span>Master</span></li>
+                      <li><i className="bi bi-chevron-right"></i> <strong>이메일 :</strong> <span>ggg9905@naver.com <br></br>ggg672948@gmail.com</span></li>
+
                     </ul>
                   </div>
                 </div>
-                <p>
-                  Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-                </p>
               </div>
-            </div>
 
+            </div>
+            {/* <h3>
+              learn and do it <br></br>
+              끊임없이 배우고 실행하는 개발자
+            </h3> */}
           </div>
         </section>
         {/* <!-- End About Section --> */}
@@ -102,11 +105,14 @@ export default function Home() {
           <div className="container">
 
             <div className="section-title">
-              <h2>Facts</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>
+                learn and do it <br></br>
+                끊임없이 배우고 실행하는 개발자
+              </h2>
+              <p></p>
             </div>
 
-            <div className="row no-gutters">
+            {/* <div className="row no-gutters">
 
               <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
                 <div className="count-box">
@@ -140,7 +146,7 @@ export default function Home() {
                 </div>
               </div>
 
-            </div>
+            </div> */}
 
           </div>
         </section>
@@ -151,8 +157,8 @@ export default function Home() {
           <div className="container">
 
             <div className="section-title">
-              <h2>Skills</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>기술 스택</h2>
+              <p> 뻐킹 기술스택 조또 할줄모름</p>
             </div>
 
             <div className="row skills-content">
@@ -185,21 +191,21 @@ export default function Home() {
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
 
                 <div className="progress">
-                  <span className="skill">PHP <i className="val">80%</i></span>
+                  <span className="skill">typescript <i className="val">80%</i></span>
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill">WordPress/CMS <i className="val">90%</i></span>
+                  <span className="skill">JAVA <i className="val">90%</i></span>
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill">Photoshop <i className="val">55%</i></span>
+                  <span className="skill">SpringBoot <i className="val">55%</i></span>
                   <div className="progress-bar-wrap">
                     <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
@@ -218,7 +224,7 @@ export default function Home() {
           <div className="container">
 
             <div className="section-title">
-              <h2>Resume</h2>
+              <h2>이력서</h2>
               <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
 
@@ -226,7 +232,7 @@ export default function Home() {
               <div className="col-lg-6" data-aos="fade-up">
                 <h3 className="resume-title">Sumary</h3>
                 <div className="resume-item pb-0">
-                  <h4>이대훈</h4>
+                  <h4>신동구</h4>
                   <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
                   <ul>
                     <li>Portland par 127,Orlando, FL</li>
