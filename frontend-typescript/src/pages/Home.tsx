@@ -1,6 +1,6 @@
 /* C:\Work\100_project_Blog\01_iPortfolio\frontend-typescript\src\pages\Home.tsx */
 import React, { useEffect } from "react";
-import initMain from "../assets/js/main";
+import initMain from "../assets/js/main.js";
 
 export default function Home() {
   useEffect(() => {
@@ -230,30 +230,36 @@ export default function Home() {
 
             <div className="row">
               <div className="col-lg-6" data-aos="fade-up">
-                <h3 className="resume-title">Sumary</h3>
+                <h3 className="resume-title">학력</h3>
                 <div className="resume-item pb-0">
-                  <h4>신동구</h4>
-                  <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                  <h4>4년제 대학 졸업 - 학사</h4>
+                  <p><em></em></p>
                   <ul>
-                    <li>Portland par 127,Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                    <li>학교명 : 부산 가톨릭 대학교</li>
+                    <li>전공 : 경영학과 전공</li>
+                    <li>재학기간 : 2018.03 ~ 2025.02 예정</li>
                   </ul>
                 </div>
 
-                <h3 className="resume-title">Education</h3>
+                <h3 className="resume-title">IT Education</h3>
                 <div className="resume-item">
-                  <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2015 - 2016</h5>
-                  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                  <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                  <h4>그린 컴퓨터 아카데미 <br></br> 자바 &amp; 스프링 웹 개발 과정</h4>
+                  <h5>2023.08 ~ 2023.12</h5>
+                  <ul>
+                    <li>Java, oracle, Spring 등 응용 SW기술 교육 이수</li>
+                    <li>Linux OS, Hadoop 환경 구축 교육 이수</li>
+                    <li>Android app개발 및 아두이노, 각종 통신 교육 이수</li>
+                  </ul>
                 </div>
                 <div className="resume-item">
-                  <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2010 - 2014</h5>
-                  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                  <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                  <h4>코드잇 <br></br>
+                    대학생을 위한 코딩 캠프 11기
+                  </h4>
+                  <h5>2023.06.24 ~ 2023.07.26</h5>
+                  <p><em>(기초 컴퓨터 사이언스 지식 수강 완료챗 GPT 활용 수강 완료, git 버전관리 및 활용법)</em></p>
+                  <p></p>
                 </div>
+
               </div>
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 className="resume-title">Professional Experience</h3>
@@ -555,20 +561,21 @@ export default function Home() {
                 <div className="info">
                   <div className="address">
                     <i className="bi bi-geo-alt"></i>
-                    <h4>Location:</h4>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <h4>거주지 :</h4>
+                    <p>부산광역시 수영구 광안동</p>
                   </div>
 
                   <div className="email">
                     <i className="bi bi-envelope"></i>
-                    <h4>Email:</h4>
-                    <p>info@example.com</p>
+                    <h4>Email :</h4>
+                    <p>ggg9905@naver.com</p>
+                    <p>ggg672948@gmail.com</p>
                   </div>
 
                   <div className="phone">
                     <i className="bi bi-phone"></i>
-                    <h4>Call:</h4>
-                    <p>+1 5589 55488 55s</p>
+                    <h4>연락처 :</h4>
+                    <p>010-7772-67209</p>
                   </div>
 
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
