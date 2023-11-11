@@ -27,7 +27,7 @@ export default function Home() {
             <ul>
               <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
               <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>
-              <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></a></li>
+              <li><a href="#Education" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Education</span></a></li>
               <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
               <li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>Services</span></a></li>
               <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></a></li>
@@ -224,8 +224,8 @@ export default function Home() {
           <div className="container">
 
             <div className="section-title">
-              <h2>이력서</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>Education</h2>
+              <p></p>
             </div>
 
             <div className="row">
@@ -243,6 +243,21 @@ export default function Home() {
 
                 <h3 className="resume-title">IT Education</h3>
                 <div className="resume-item">
+                  <h4>코드잇 <br></br>
+                    대학생을 위한 코딩 캠프 11기
+                  </h4>
+                  <h5>2023.06.24 ~ 2023.07.26</h5>
+                  <ul>
+                    <li>기초 컴퓨터 사이언스 지식 교육 수강 완료</li>
+                    <li>Chat GPT 활용 교육 수강 완료</li>
+                    <li>git 버전관리 및 활용법 수강 완료</li>
+                  </ul>
+                </div>
+
+              </div>
+              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 className="resume-title">IT Education</h3>
+                <div className="resume-item">
                   <h4>그린 컴퓨터 아카데미 <br></br> 자바 &amp; 스프링 웹 개발 과정</h4>
                   <h5>2023.08 ~ 2023.12</h5>
                   <ul>
@@ -251,40 +266,7 @@ export default function Home() {
                     <li>Android app개발 및 아두이노, 각종 통신 교육 이수</li>
                   </ul>
                 </div>
-                <div className="resume-item">
-                  <h4>코드잇 <br></br>
-                    대학생을 위한 코딩 캠프 11기
-                  </h4>
-                  <h5>2023.06.24 ~ 2023.07.26</h5>
-                  <p><em>(기초 컴퓨터 사이언스 지식 수강 완료챗 GPT 활용 수강 완료, git 버전관리 및 활용법)</em></p>
-                  <p></p>
-                </div>
-
-              </div>
-              <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <h3 className="resume-title">Professional Experience</h3>
-                <div className="resume-item">
-                  <h4>Senior graphic design specialist</h4>
-                  <h5>2019 - Present</h5>
-                  <p><em>Experion, New York, NY </em></p>
-                  <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                  </ul>
-                </div>
-                <div className="resume-item">
-                  <h4>Graphic design specialist</h4>
-                  <h5>2017 - 2018</h5>
-                  <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                  <ul>
-                    <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                    <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                    <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-                  </ul>
-                </div>
+                
               </div>
             </div>
 
