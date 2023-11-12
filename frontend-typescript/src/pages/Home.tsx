@@ -157,8 +157,8 @@ export default function Home() {
           <div className="container">
 
             <div className="section-title">
-              <h2>기술 스택</h2>
-              <p> 뻐킹 기술스택 조또 할줄모름</p>
+              <h2>Skill</h2>
+              <p> 기술 </p>
             </div>
 
             <div className="row skills-content">
@@ -534,7 +534,7 @@ export default function Home() {
 
             <div className="section-title">
               <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <p>작성자 정보</p>
             </div>
 
             <div className="row" data-aos="fade-in">
