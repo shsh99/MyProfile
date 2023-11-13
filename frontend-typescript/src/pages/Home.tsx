@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import initMain from "../assets/js/main.js";
 
+
 export default function Home() {
   useEffect(() => {
     initMain();
@@ -27,9 +28,8 @@ export default function Home() {
             <ul>
               <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
               <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>
-              <li><a href="#Education" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Education</span></a></li>
+              <li><a href="#education" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Education</span></a></li>
               <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-              <li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>Services</span></a></li>
               <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></a></li>
             </ul>
           </nav>
@@ -158,7 +158,7 @@ export default function Home() {
 
             <div className="section-title">
               <h2>Skill</h2>
-              <p> 기술 </p>
+              <p> 기술 스택</p>
             </div>
 
             <div className="row skills-content">
@@ -166,23 +166,23 @@ export default function Home() {
               <div className="col-lg-6" data-aos="fade-up">
 
                 <div className="progress">
-                  <span className="skill">HTML <i className="val">100%</i></span>
+                  <span className="skill">HTML <i className="val"></i></span>
                   <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                    <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill">CSS <i className="val">90%</i></span>
+                  <span className="skill">CSS <i className="val"></i></span>
                   <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+                    <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill">JavaScript <i className="val">75%</i></span>
+                  <span className="skill">JavaScript <i className="val"></i></span>
                   <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}></div>
+                    <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
@@ -191,23 +191,23 @@ export default function Home() {
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
 
                 <div className="progress">
-                  <span className="skill">typescript <i className="val">80%</i></span>
+                  <span className="skill">typescript <i className="val"></i></span>
                   <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
+                    <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill">JAVA <i className="val">90%</i></span>
+                  <span className="skill">JAVA <i className="val"></i></span>
                   <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+                    <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
                 <div className="progress">
-                  <span className="skill">SpringBoot <i className="val">55%</i></span>
+                  <span className="skill">SpringBoot <i className="val"></i></span>
                   <div className="progress-bar-wrap">
-                    <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100}></div>
+                    <div className="progress-bar" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
                   </div>
                 </div>
 
@@ -220,7 +220,7 @@ export default function Home() {
         {/* <!-- End Skills Section --> */}
 
         {/* <!-- ======= Resume Section ======= --> */}
-        <section id="resume" className="resume">
+        <section id="education" className="resume">
           <div className="container">
 
             <div className="section-title">
@@ -256,7 +256,7 @@ export default function Home() {
 
               </div>
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="resume-title">IT Education</h3>
+                <h3 className="resume-title">IT Education</h3>
                 <div className="resume-item">
                   <h4>그린 컴퓨터 아카데미 <br></br> 자바 &amp; 스프링 웹 개발 과정</h4>
                   <h5>2023.08 ~ 2023.12</h5>
@@ -266,7 +266,7 @@ export default function Home() {
                     <li>Android app개발 및 아두이노, 각종 통신 교육 이수</li>
                   </ul>
                 </div>
-                
+
               </div>
             </div>
 
@@ -280,10 +280,11 @@ export default function Home() {
 
             <div className="section-title">
               <h2>Portfolio</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <p>작업물
+              </p>
             </div>
 
-            <div className="row" data-aos="fade-up">
+            {/* <div className="row" data-aos="fade-up">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                   <li data-filter="*" className="filter-active">All</li>
@@ -292,27 +293,19 @@ export default function Home() {
                   <li data-filter=".filter-web">Web</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
+
 
               <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
+                  {/* <video muted autoPlay loop>
+                    <source src="https://tv.kakao.com/v/441575995" type="video" />
+                  </video> */}
+                  <iframe width="600" height="400" src="https://tv.kakao.com/v/441575995" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
                 </div>
               </div>
 
@@ -320,23 +313,22 @@ export default function Home() {
                 <div className="portfolio-wrap">
                   <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <iframe width="600" height="400" src="https://tv.kakao.com/v/441575995"></iframe>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
+                  <img src="https://tv.kakao.com/v/441575995" className="img-fluid" alt="" />
                   <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
+                    <a href="https://tv.kakao.com/v/441575995" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div className="portfolio-wrap">
                   <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
@@ -344,47 +336,13 @@ export default function Home() {
                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
+
+
 
             </div>
 
@@ -393,7 +351,7 @@ export default function Home() {
         {/* <!-- End Portfolio Section --> */}
 
         {/* <!-- ======= Services Section ======= --> */}
-        <section id="services" className="services">
+        {/* <section id="services" className="services">
           <div className="container">
 
             <div className="section-title">
@@ -435,97 +393,11 @@ export default function Home() {
             </div>
 
           </div>
-        </section>
+        </section> */}
         {/* <!-- End Services Section --> */}
 
         {/* <!-- ======= Testimonials Section ======= --> */}
-        <section id="testimonials" className="testimonials section-bg">
-          <div className="container">
 
-            <div className="section-title">
-              <h2>Testimonials</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div className="swiper-wrapper">
-
-                <div className="swiper-slide">
-                  <div className="testimonial-item" data-aos="fade-up">
-                    <p>
-                      <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                    <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
-                  </div>
-                </div>
-                {/* <!-- End testimonial item --> */}
-
-                <div className="swiper-slide">
-                  <div className="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                    <p>
-                      <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                      <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
-                  </div>
-                </div>
-                {/* <!-- End testimonial item --> */}
-
-                <div className="swiper-slide">
-                  <div className="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                    <p>
-                      <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                  </div>
-                </div>
-                {/* <!-- End testimonial item --> */}
-
-                <div className="swiper-slide">
-                  <div className="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                    <p>
-                      <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                      <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
-                  </div>
-                </div>
-                {/* <!-- End testimonial item --> */}
-
-                <div className="swiper-slide">
-                  <div className="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                    <p>
-                      <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                      <i className="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
-                  </div>
-                </div>
-                {/* <!-- End testimonial item --> */}
-
-              </div>
-              <div className="swiper-pagination"></div>
-            </div>
-
-          </div>
-        </section>
         {/* <!-- End Testimonials Section --> */}
 
         {/* <!-- ======= Contact Section ======= --> */}
